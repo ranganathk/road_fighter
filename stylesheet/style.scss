@@ -1,0 +1,21 @@
+#game {
+  height: 100vh;
+  width: 50vh;
+  background-color: #2980b9;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  .car {
+    img {
+      height: 20vh;
+      width: 10vh;
+      position: absolute;
+      &#my_car {
+        bottom: 0;
+      }
+      &#other_car {
+        right: 0;
+      }
+    }
+  }
+}
